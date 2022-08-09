@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.btn-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    margin: 15px 15px;
+    border: none;
+    background: #fff;
+}
+
+.fa-bars{
+    color: aqua;
+}
+
+.fa-xmark{
+    color: red;
+}
+
+.over-slidebar{
+    position: fixed;
+    top: 0;
+    left: -400px;
+    height: 100%;
+    background: #fff;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    box-shadow: 1px 1px 5px rgb(0, 0,0.7);
+}
+
+.slidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.link a{
+    display: block;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    color: #222;
+    font-size: 1.5rem;
+    transition: all 1500ms;
+    text-decoration: none;
+}
+
+.icon i{
+    color: aqua;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.25rem;
+}
+
+.icon a{
+    text-decoration: none;
+}
+
+@media screen and (min-width : 600px) {
+    .over-slidebar{
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width : 599px) {
+    .over-slidebar{
+        width: 100%;
+    }
+    
+}
+
+.over-slidebar.show-sidebar {
+    left: 0;
+}

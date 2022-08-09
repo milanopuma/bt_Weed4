@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    background: hsl(210, 36%, 96%);
+}
+
+.box-center{
+    background: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0.8);
+    transition: all 0.5s;
+    padding: 2rem;
+
+    width: 35rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.form h3{
+    color: #222;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1;
+    font-size: 1.75rem;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding:0.25rem;
+    padding-left: 1rem;
+    background: silver;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    flex: 1 auto;
+    border: none;
+    height: 2rem;
+}
+
+.form-btn{
+    background: aquamarine;
+    border: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    font-size: 0.85rem;
+    padding: 0.25rem;
+    flex: 0 0 5rem;
+}
+
+.form-btn:hover{
+    background: aqua;
+    color: #fff;
+}
+
+.container{
+    margin-top: 2rem;
+
+}
+
+.grocery-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.25rem 1rem;
+    border-radius: 0.3rem;
+    text-transform: capitalize;
+}
+
+.title{
+    letter-spacing: 2px;
+}
+
+.fa-pen-to-square{
+    color: forestgreen;
+}
+
+.fa-trash{
+    color: red;
+}
+
+.btn-container button{
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.clear-item{
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    border: none;
+    background: #fff;
+    color: red;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+.show-container{
+    visibility: visible;
+}
+
+
+
+
